@@ -1,0 +1,18 @@
+
+package com.smartport.auth.domain.entities;
+
+import java.util.UUID;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@NoArgsConstructor
+public class Employee {
+    private UUID userId;
+
+    public Employee(UUID userId) {
+        this.userId = userId;
+    }
+}
