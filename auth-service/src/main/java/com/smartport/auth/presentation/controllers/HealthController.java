@@ -1,4 +1,4 @@
-package com.smartport.auth.presentation.rest;
+package com.smartport.auth.presentation.controllers;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
